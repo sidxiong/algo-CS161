@@ -8,7 +8,20 @@ Basically Stanford CS161
 
 ## Update
 
+* 1/5/2017  
+Update programming assignment for PartII-week2: Using Kruscal's MST (greedy) to solve cluster problems
+	* cluster.py
+	* clustering1.txt
+	* clustering_big.txt
+
+* 1/2/2017  
+Update programming assignment for PartII-week1: Application schedule; Prim's MST (greedy)
+	* jobs_schedule.py
+	* jobs.txt
+    * mst-prim.py
+	* edges.txt
+
 * 1/1/2017  
-Update programming assignment for PartI-week5: Dijkstra algorithm
+Update programming assignment for PartI-week5: Dijkstra algorithm (greedy)
 	* dijstra.py
 	* dijstraData.txt
