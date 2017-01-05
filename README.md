@@ -1,9 +1,7 @@
 # Stanford's Algorithms: Design and Analysis on Coursera
 
 Basically Stanford CS161
-
-## Course website
-#### partI
+#### Course website
 [https://www.coursera.org/learn/algorithm-design-analysis](https://www.coursera.org/learn/algorithm-design-analysis)
 
 ## Update
