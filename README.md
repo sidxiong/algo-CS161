@@ -12,6 +12,7 @@ Update programming assignment for PartI-week1&2: Merge sort & Quick sort
 	* IntegerArray.txt
 	* QuickSort.txt
 
+* 1/5/2017  
 Update programming assignment for PartII-week2: Using Kruscal's MST (greedy) to solve cluster problems
 	* cluster.py
 	* clustering1.txt
