@@ -10,17 +10,7 @@ class UF(object):
     
 
     def union(self, u, v):
-        root_u = self.root(u)
-        root_v = self.root(v)
-
-        if root_u != root_v:
-            if self.size[root_u] < self.size[root_v]:
-                self.data[root_u] = root_v
-                self.size[root_v] += self.size[root_u]
-            else:
-                self.data[root_v] = root_u
-                self.size[root_u] += self.size[root_v]
-            self.n_cluster -= 1
+        self.union_if_not_connected(u, v)
 
 
     def is_connected(self, u, v):
@@ -95,7 +85,7 @@ def cluster_big(filename):
 
         ori_node = list(_)
         for i in range(length):
-            for j in range(length):
+            for j in range(i, length):
                 node = ori_node[:]
                 node[i] = '1' if node[i] == '0' else '0'
                 if i != j:
@@ -110,6 +100,5 @@ def cluster_big(filename):
 if __name__ == '__main__':
     cost = cluster_small('clustering1.txt')
     print 'cost: ', cost
-
-    # cost = cluster_big('clustering_big.txt')
-    # print 'cost: ', cost
+    cost = cluster_big('clustering_big.txt')
+    print 'cost: ', cost
