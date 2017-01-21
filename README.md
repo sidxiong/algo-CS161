@@ -1,11 +1,28 @@
 # Stanford's Algorithms: Design and Analysis on Coursera
 
-Basically Stanford CS161
+Basically it is Stanford's CS161
+
 #### Course website
-[https://www.coursera.org/learn/algorithm-design-analysis](https://www.coursera.org/learn/algorithm-design-analysis)
+https://www.coursera.org/learn/algorithm-design-analysis
+
+https://www.coursera.org/learn/algorithm-design-analysis-2/
 
 ## Update
 
+* 1/16/2017  
+Update programming assignment for PartII-week3: Knapsack problem with DP
+    * Knapsack.java
+    * knapsack\_big.txt
+    * knapsack.py
+    * knapsack1.txt
+
+* 1/8/2017  
+Update programming assignment for PartI-week6: Two Sum & Find Median by Heap
+    * Median.java
+    * Median.txt
+    * 2sum.py
+    * 2sum.txt
+    
 * 1/5/2017  
 Update programming assignment for PartI-week1&2: Merge sort & Quick sort
 	* sort_and_count.py
